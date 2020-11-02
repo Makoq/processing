@@ -1,0 +1,19 @@
+<Method id="" name="Spatial_Clip">
+    <Description>
+    Extract region of interesting administrative district shapefile data by city_name parameter such as "武汉市" from the whole china administrative district shapefile data.
+    </Description>
+    <Dependency>
+        <Item name="pyshp" url=""/>
+        <Item name="os" url=""/>
+        <Item name="sys" url=""/>
+    </Dependency>
+    <Input count="1">
+        <Item name="xxx.shp" type="path" description="original shp file"/>
+    </Input>
+    <Parameter count="1">
+        <Item name="city_name" type="string" description="the name of a city in china"/>
+    </Parameter>
+    <Output count="1">
+        <Item name="re.shp" type="string" description="clipped_result"/>
+    </Output>
+</Method>

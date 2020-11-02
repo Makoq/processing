@@ -1,0 +1,17 @@
+<Method id="" name="Spatial_Clip">
+    <Dependency>
+        <Item name="os" url=""/>
+        <Item name="sys" url=""/>
+        <Item name="geopandas" url=""/>
+        <Item name="matplotlib" url=""/>
+
+    </Dependency>
+    <Input count="1">
+        <Item name="xxx.shp" type="path" description="original shp file"/>
+    </Input>
+    <Parameter count="0">
+    </Parameter>
+    <Output count="1">
+        <Item name="result.png" type="string" description="clipped_result"/>
+    </Output>
+</Method>
