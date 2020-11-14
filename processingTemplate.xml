@@ -1,0 +1,15 @@
+<Method id="" name="">
+    <Dependency>
+        <Item name="os" url=""/>
+        <Item name="sys" url=""/>
+        
+    </Dependency>
+    <Input count="1">
+        <Item name="" type="path" description=""/>
+    </Input>
+    <Parameter count="0">
+    </Parameter>
+    <Output count="1">
+        <Item name="" type="path" description=""/>
+    </Output>
+</Method>
